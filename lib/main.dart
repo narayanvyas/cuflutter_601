@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
+import 'login_page.dart';
+
 void main() {
   runApp(MaterialApp(
     title: 'CU 601 App',
-    home: HomePage(),
+    home: LoginPage(),
   ));
 }
 
